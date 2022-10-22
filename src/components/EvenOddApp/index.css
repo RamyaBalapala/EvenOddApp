@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.even-odd-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 400px;
+  width: 450px;
+  border-radius: 12px;
+}
+.count-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.even-odd-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.button {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0px;
+  cursor: pointer;
+  outline: #1e293b;
+}
+
+.app-info {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
